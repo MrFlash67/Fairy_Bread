@@ -1,0 +1,23 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While executing init code:
+  File "game/options.rpy", line 10, in script
+  File "game/options.rpy", line 16, in python
+NameError: name 'true' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "/Users/localadmin/Desktop/CrispinsHardDriveDiedSoHeStoleThisLaptop/renpy-6.17.3-sdk/renpy/execution.py", line 294, in run
+    node.execute()
+  File "/Users/localadmin/Desktop/CrispinsHardDriveDiedSoHeStoleThisLaptop/renpy-6.17.3-sdk/renpy/ast.py", line 732, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/Users/localadmin/Desktop/CrispinsHardDriveDiedSoHeStoleThisLaptop/renpy-6.17.3-sdk/renpy/python.py", line 1358, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/options.rpy", line 16, in <module>
+    config.developer = true
+NameError: name 'true' is not defined
+
+Darwin-11.4.2-x86_64-i386-64bit
+Ren'Py 6.17.3.327
+ 
